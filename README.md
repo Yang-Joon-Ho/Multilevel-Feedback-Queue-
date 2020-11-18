@@ -11,7 +11,8 @@
 
 ![10](https://github.com/Yang-Joon-Ho/Multilevel-Feedback-Queue-/blob/master/%EC%9D%B4%EB%AF%B8%EC%A7%80/mlfq%EC%9E%91%EB%8F%99%EB%B0%A9%EC%8B%9D.PNG)
 
-    각각의 Level을 갖는 여러 개의 Queue가 존재하며, 새로운 Job이 도착하면 이 Queue 안에서 특정 규칙에       따라 우선순위가 변하면서 여러 가지 Job들 중에 하나를 선정해 실행하는 Scheduling 방법론이다.
+    각각의 Level을 갖는 여러 개의 Queue가 존재하며, 새로운 Job이 도착하면 이 Queue 안에서 특정 규칙에
+    따라 우선순위가 변하면서 여러 가지 Job들 중에 하나를 선정해 실행하는 Scheduling 방법론이다.
 
 <br>
 
@@ -41,9 +42,39 @@
   - Process 목록
 
 <br>
+<br>
+
+### 4. 알고리즘 설명
+
+<br>
+
+#### 1. menu 함수에서 스케줄링할 작업들을 입력함.
+
+![11](https://github.com/Yang-Joon-Ho/Multilevel-Feedback-Queue-/blob/master/%EC%9D%B4%EB%AF%B8%EC%A7%80/menu%ED%95%A8%EC%88%98.PNG)
+
+<br>
+
+#### 2. schedule 함수에서 작업 목록을 입력으로 받아 스케줄링 함.
+
+<br>
+
+![12](https://github.com/Yang-Joon-Ho/Multilevel-Feedback-Queue-/blob/master/%EC%9D%B4%EB%AF%B8%EC%A7%80/2.PNG)
+![13](https://github.com/Yang-Joon-Ho/Multilevel-Feedback-Queue-/blob/master/%EC%9D%B4%EB%AF%B8%EC%A7%80/3.PNG)
+
+<br>
+
+#### 3. cpu 함수에서 cpu 자원을 할당받은 작업을 수행함.
+
+<br>
+
+![14](https://github.com/Yang-Joon-Ho/Multilevel-Feedback-Queue-/blob/master/%EC%9D%B4%EB%AF%B8%EC%A7%80/1.PNG)
 
 
-### 3. 프로그램 출력 결과
+<br>
+<br>
+
+
+### 5. 프로그램 출력 결과
 
 <br>
 
@@ -93,3 +124,7 @@
 ![7](https://github.com/Yang-Joon-Ho/Multilevel-Feedback-Queue-/blob/master/%EC%9D%B4%EB%AF%B8%EC%A7%80/10.PNG)
 
 ![8](https://github.com/Yang-Joon-Ho/Multilevel-Feedback-Queue-/blob/master/%EC%9D%B4%EB%AF%B8%EC%A7%80/11.PNG)
+
+<br>
+<br>
+
