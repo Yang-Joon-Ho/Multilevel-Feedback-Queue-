@@ -44,17 +44,17 @@
 <br>
 <br>
 
-### 4. 알고리즘 설명
+### 4. 주요 코드
 
 <br>
 
-#### 1. menu 함수에서 스케줄링할 작업들을 입력함.
+#### 1) menu 함수에서 스케줄링할 작업들을 입력함.
 
 ![11](https://github.com/Yang-Joon-Ho/Multilevel-Feedback-Queue-/blob/master/%EC%9D%B4%EB%AF%B8%EC%A7%80/menu%ED%95%A8%EC%88%98.PNG)
 
 <br>
 
-#### 2. schedule 함수에서 작업 목록을 입력으로 받아 스케줄링 함.
+#### 2) schedule 함수에서 작업 목록을 입력으로 받아 스케줄링 함.
 
 <br>
 
@@ -63,7 +63,7 @@
 
 <br>
 
-#### 3. cpu 함수에서 cpu 자원을 할당받은 작업을 수행함.
+#### 3) cpu 함수에서 cpu 자원을 할당받은 작업을 수행함.
 
 <br>
 
