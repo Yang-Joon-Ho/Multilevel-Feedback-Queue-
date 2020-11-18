@@ -33,20 +33,24 @@
 
 ### 3. 프로그램 출력 결과
 
-#### 1) 시간이 5만큼 지날 떄 마다 큐를 초기화 하지 않는 경우
+<br>
+
+#### 1) 시간이 5만큼 지날 때 마다 큐를 초기화 하지 않는 경우
+
+<br>
+
+  - time slice = 2^n 으로 설정
 
 <br>
 
 ![1](https://github.com/Yang-Joon-Ho/Multilevel-Feedback-Queue-/blob/master/%EC%9D%B4%EB%AF%B8%EC%A7%80/4.PNG)
 
-  - mode에 따라 time slice가 1혹은 2로 설정됨.
-  time slice = 2^n 으로 설정
-
 ![2](https://github.com/Yang-Joon-Ho/Multilevel-Feedback-Queue-/blob/master/%EC%9D%B4%EB%AF%B8%EC%A7%80/5.PNG)
 
-![3](https://github.com/Yang-Joon-Ho/Multilevel-Feedback-Queue-/blob/master/%EC%9D%B4%EB%AF%B8%EC%A7%80/6.PNG)
+<br>
 
   - time slice = 1로 설정
+![3](https://github.com/Yang-Joon-Ho/Multilevel-Feedback-Queue-/blob/master/%EC%9D%B4%EB%AF%B8%EC%A7%80/6.PNG)
 
 ![4](https://github.com/Yang-Joon-Ho/Multilevel-Feedback-Queue-/blob/master/%EC%9D%B4%EB%AF%B8%EC%A7%80/7.PNG)
 
@@ -54,14 +58,19 @@
 
 #### 2) 시간이 5만큼 지날 때 마다 큐를 초기화
 
+<br>
+
+- time slice = 1
+
 ![5](https://github.com/Yang-Joon-Ho/Multilevel-Feedback-Queue-/blob/master/%EC%9D%B4%EB%AF%B8%EC%A7%80/8.PNG)
 
-  - time slice = 1
   
 ![6](https://github.com/Yang-Joon-Ho/Multilevel-Feedback-Queue-/blob/master/%EC%9D%B4%EB%AF%B8%EC%A7%80/9.PNG)
 
-![7](https://github.com/Yang-Joon-Ho/Multilevel-Feedback-Queue-/blob/master/%EC%9D%B4%EB%AF%B8%EC%A7%80/10.PNG)
+<br>
 
-  - time slice = 2^n
+- time slice = 2^n
+
+![7](https://github.com/Yang-Joon-Ho/Multilevel-Feedback-Queue-/blob/master/%EC%9D%B4%EB%AF%B8%EC%A7%80/10.PNG)
 
 ![8](https://github.com/Yang-Joon-Ho/Multilevel-Feedback-Queue-/blob/master/%EC%9D%B4%EB%AF%B8%EC%A7%80/11.PNG)
